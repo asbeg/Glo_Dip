@@ -5,16 +5,18 @@ const slider = () => {
     let indexValue = 0,
         interval;
     const showSlider = () => {
-        for (let i = 0; i < slide.length; i++) {
-            slide[i].style.display = 'none';
-        }
+            for (let i = 0; i < slide.length; i++) {
+                slide[i].style.display = 'none';
+            }
 
-        indexValue++;
+            indexValue++;
 
-        if (indexValue > slide.length) {
-            indexValue = 1;
-        }
-        slide[indexValue - 1].style.display = 'block';
+            if (indexValue > slide.length) {
+                indexValue = 1;
+            }
+            slide[indexValue - 1].style.display = 'block';
+
+            const title = document.querySelectorAll('.big');
     }
 
     const startSlider = () => {

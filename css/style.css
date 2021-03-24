@@ -933,7 +933,7 @@ video#video_background {
 	}
 	.top-slider .table {
 		opacity: 0;
-		visibility: hidden;
+		visibility: visible;
 		-webkit-transform: scale(1.5);
 		-ms-transform: scale(1.5);
 		-o-transform: scale(1.5);
@@ -956,6 +956,15 @@ video#video_background {
 	.top-slider .text {
 		font-size: 24px;
 		line-height: 1.6;
+		visibility: visible;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.top-slider .text {
+		font-size: 24px;
+		line-height: 1.6;
+		visibility: visible;
 	}
 }
 
