@@ -14,4 +14,4 @@ serviceModal();
 slider();
 accordion();
 //services();
-//upScroll();
+upScroll();
