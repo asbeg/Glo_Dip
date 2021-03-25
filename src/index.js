@@ -7,6 +7,7 @@ import accordion from "./modules/accordion";
 import services from "./modules/services";
 import upScroll from "./modules/upScroll";
 import carousel from "./modules/carousel";
+import sendForm from "./modules/sendForm";
 
 
 
@@ -17,3 +18,4 @@ accordion();
 //services();
 upScroll();
 carousel();
+sendForm();
