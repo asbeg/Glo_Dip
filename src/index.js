@@ -15,7 +15,7 @@ modalCallback();
 serviceModal();
 slider();
 accordion();
-//services();
+services();
 upScroll();
 carousel();
 sendForm();
