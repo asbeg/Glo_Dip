@@ -12,7 +12,8 @@ const carousel = () => {
 
     let position = 0,
         slidesToShow = 3,
-        width = Math.floor(100 / slidesToShow);
+        width = Math.floor(100 / slidesToShow),
+        infinity = true;
 
     btn.forEach(el => {
         el.addEventListener('click', () => {
@@ -52,17 +53,23 @@ const carousel = () => {
         document.head.appendChild(style);
     }
     addStyle();
-
     const prevSlider = () => {
-        if (position > 0) {
+
+        if (infinity || position > 0) {
             --position;
+            if (position < 0) {
+                position = slides.length - slidesToShow
+            }
             wrap.style.transform = `translateX(-${position * width}%)`;
         }
     }
-
     const nextSlider = () => {
-        if (position < slides.length - slidesToShow) {
+        if (infinity || position < slides.length - slidesToShow) {
+            console.log("Test"+ position);
             ++position;
+            if (position > slides.length - slidesToShow) {
+                position = 0;
+            }
             wrap.style.transform = `translateX(-${position * width}%)`;
         }
     }
