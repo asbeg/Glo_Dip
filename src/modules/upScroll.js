@@ -1,5 +1,6 @@
 const upScroll = () => {
     const upBtn = document.querySelector('.up');
+    upBtn.hidden = true;
     upBtn.addEventListener('click', (e) => {
         e.preventDefault();
         window.scrollTo({
