@@ -1,7 +1,7 @@
 /*
 const services = () => {
     const servicesArrow = document.querySelector('.services-arrow');
-
+    console.log(servicesArrow);
 
 
 
@@ -9,4 +9,5 @@ const services = () => {
 
 }
 
-export default services;*/
+export default services;
+*/

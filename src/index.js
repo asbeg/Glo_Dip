@@ -6,6 +6,7 @@ import slider from "./modules/slider";
 import accordion from "./modules/accordion";
 import services from "./modules/services";
 import upScroll from "./modules/upScroll";
+import carousel from "./modules/carousel";
 
 
 
@@ -15,3 +16,4 @@ slider();
 accordion();
 //services();
 upScroll();
+carousel();
