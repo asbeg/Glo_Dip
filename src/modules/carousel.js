@@ -54,7 +54,6 @@ const carousel = () => {
     }
     addStyle();
     const prevSlider = () => {
-
         if (infinity || position > 0) {
             --position;
             if (position < 0) {
@@ -65,7 +64,6 @@ const carousel = () => {
     }
     const nextSlider = () => {
         if (infinity || position < slides.length - slidesToShow) {
-            console.log("Test"+ position);
             ++position;
             if (position > slides.length - slidesToShow) {
                 position = 0;
