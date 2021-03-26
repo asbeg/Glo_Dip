@@ -10,7 +10,6 @@ import carousel from "./modules/carousel";
 import sendForm from "./modules/sendForm";
 
 
-
 modalCallback();
 serviceModal();
 slider();

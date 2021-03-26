@@ -36,15 +36,15 @@ const slider = () => {
     startSlider();
 
     topSlider.addEventListener('mouseover', event => {
-        let target = event.target;
-        if (target.matches('.item')) {
+        const target = event.target;
+        if (target.closest('.item')) {
             stopSlide();
         }
     });
 
     topSlider.addEventListener('mouseout', event => {
-        let target = event.target;
-        if (target.matches('.item')) {
+        const target = event.target;
+        if (target.closest('.item')) {
             startSlider();
         }
     });

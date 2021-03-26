@@ -16,7 +16,6 @@ const accordion = () => {
                 } else {
                     accordions[i].classList.remove('active');
                     accordionContent[i].style.display = 'none';
-
                 }
             }
         });

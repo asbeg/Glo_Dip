@@ -19,12 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cd8d913-5a8d-44b1-b121-0e47d76a6322" name="Default Changelist" comment="">
+    <list default="true" id="e31c10c7-5b0a-4878-87e3-27ef56a11733" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/scrollServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/serviceModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/serviceModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,8 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1qG86QFTMfqzEP6IEw4Znv6N7JQ" />
+  <component name="ProjectId" id="1qGj0j4x7KqOcbGcqdzpRlWGfIT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,14 +65,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5cd8d913-5a8d-44b1-b121-0e47d76a6322" name="Default Changelist" comment="" />
-      <created>1616694390710</created>
+      <changelist id="e31c10c7-5b0a-4878-87e3-27ef56a11733" name="Default Changelist" comment="" />
+      <created>1616712602589</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616694390710</updated>
-      <workItem from="1616694391912" duration="510000" />
-      <workItem from="1616695007952" duration="557000" />
-      <workItem from="1616695654698" duration="13565000" />
+      <updated>1616712602589</updated>
+      <workItem from="1616712604483" duration="1669000" />
+      <workItem from="1616762544801" duration="1645000" />
     </task>
     <servers />
   </component>
@@ -88,21 +91,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1579" height="446" key="GridCell.Tab.0.bottom" timestamp="1616694905284">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616713913704">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="446" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616694905284" />
-    <state width="1579" height="446" key="GridCell.Tab.0.center" timestamp="1616694905284">
+    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616713913704" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1616714295148">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="446" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616694905284" />
-    <state width="1579" height="446" key="GridCell.Tab.0.left" timestamp="1616694905283">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616714295148" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1616714295147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="446" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616694905283" />
-    <state width="1579" height="446" key="GridCell.Tab.0.right" timestamp="1616694905284">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616714295147" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1616714295147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="446" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616694905284" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616714295147" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1616714295148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1616714295148" />
   </component>
 </project>
