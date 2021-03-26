@@ -1,6 +1,6 @@
 'use strict';
 
-import modalCallback from "./modules/modal";
+import modal from "./modules/modal";
 import serviceModal from "./modules/serviceModal";
 import slider from "./modules/slider";
 import accordion from "./modules/accordion";
@@ -10,7 +10,7 @@ import carousel from "./modules/carousel";
 import sendForm from "./modules/sendForm";
 
 
-modalCallback();
+modal();
 serviceModal();
 slider();
 accordion();
